@@ -2798,6 +2798,14 @@ p, a, span {
   font-family: 'Droid Arabic Kufi', serif;
   font-weight: bold; }
 
+.blog-content p {
+  font-size: 1.2em; }
+.blog-content.blog-single img {
+  max-width: 100%;
+  float: right; }
+.blog-content.blog-single p {
+  font-size: 1.3em; }
+
 .jcarousel-next-horizontal, .jcarousel-next-horizontal:hover, .jcarousel-next-horizontal:focus, .jcarousel-next-horizontal:active {
   background-position: 0 -36px; }
 

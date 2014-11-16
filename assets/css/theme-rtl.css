@@ -3975,6 +3975,19 @@ span {
   font-weight: bold;
 }
 
+.blog-content p {
+  font-size: 1.2em;
+}
+
+.blog-content.blog-single img {
+  max-width: 100%;
+  float: left;
+}
+
+.blog-content.blog-single p {
+  font-size: 1.3em;
+}
+
 .jcarousel-next-horizontal,
 .jcarousel-next-horizontal:hover,
 .jcarousel-next-horizontal:focus,
