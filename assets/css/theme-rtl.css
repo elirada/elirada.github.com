@@ -3969,6 +3969,12 @@ span {
   font-family: 'Droid Arabic Naskh', serif;
 }
 
+.blog-list-wrapper a,
+.blog-title-single a {
+  font-family: 'Droid Arabic Kufi', serif;
+  font-weight: bold;
+}
+
 .jcarousel-next-horizontal,
 .jcarousel-next-horizontal:hover,
 .jcarousel-next-horizontal:focus,
@@ -3992,6 +3998,7 @@ span {
 }
 
 .flex-caption {
+  direction: rtl;
   text-align: right;
 }
 
