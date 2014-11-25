@@ -2787,7 +2787,8 @@ a, .top-menu li, .footer-menu li, .button1, #footer .button1, .button2, .button3
 #main-menu a, .widget-title h4, .title1, .title2 {
   font-family: 'Droid Arabic Kufi', serif; }
 
-.title2 {
+.title2, .blog-content h2, .blog-content h3 {
+  font-family: 'Droid Arabic Kufi', serif;
   font-weight: bold; }
 
 #title h1 {

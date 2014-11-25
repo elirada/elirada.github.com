@@ -3959,7 +3959,10 @@ table {
   font-family: 'Droid Arabic Kufi', serif;
 }
 
-.title2 {
+.title2,
+.blog-content h2,
+.blog-content h3 {
+  font-family: 'Droid Arabic Kufi', serif;
   font-weight: bold;
 }
 
