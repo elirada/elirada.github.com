@@ -2784,8 +2784,11 @@ a, .top-menu li, .footer-menu li, .button1, #footer .button1, .button2, .button3
 #main-menu {
   max-width: 930px; }
 
-#main-menu a, .widget-title h4, .title1 {
+#main-menu a, .widget-title h4, .title1, .title2 {
   font-family: 'Droid Arabic Kufi', serif; }
+
+.title2 {
+  font-weight: bold; }
 
 #title h1 {
   font-family: 'Droid Arabic Naskh', serif;

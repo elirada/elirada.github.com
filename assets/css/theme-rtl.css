@@ -3954,8 +3954,13 @@ table {
 
 #main-menu a,
 .widget-title h4,
-.title1 {
+.title1,
+.title2 {
   font-family: 'Droid Arabic Kufi', serif;
+}
+
+.title2 {
+  font-weight: bold;
 }
 
 #title h1 {
