@@ -2781,6 +2781,9 @@ a, .top-menu li, .footer-menu li, .button1, #footer .button1, .button2, .button3
 .flex-caption {
   background-color: rgba(28, 69, 26, 0.8); }
 
+h1, h2, h3, h4, h5, h6, #main-menu, .flex-caption p, .button1, .button2, .button3, #submit, .msg1 p, #tabs .nav li, table th, .comment-count h3 .comments-off {
+  font-family: 'Droid Arabic Naskh', serif; }
+
 #main-menu {
   max-width: 930px; }
 
