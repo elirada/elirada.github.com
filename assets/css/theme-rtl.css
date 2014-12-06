@@ -4041,3 +4041,33 @@ span {
   direction: rtl;
   text-align: right;
 }
+
+div.pp_default .pp_top .pp_left,
+div.pp_default .pp_bottom .pp_left {
+  right: auto;
+  left: 0;
+}
+
+div.pp_default .pp_top .pp_right,
+div.pp_default .pp_bottom .pp_right {
+  right: 0;
+  left: auto;
+}
+
+div.pp_default .pp_content_container .pp_left {
+  padding-right: 0;
+}
+
+div.pp_default .pp_content_container .pp_right {
+  padding-right: 20px;
+}
+
+div.pp_default .pp_next:hover {
+  background-image: url(../images/prettyPhoto/default/sprite_prev.png);
+  background-position-x: left;
+}
+
+div.pp_default .pp_previous:hover {
+  background-image: url(../images/prettyPhoto/default/sprite_next.png);
+  background-position-x: right;
+}
