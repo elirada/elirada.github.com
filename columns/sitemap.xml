@@ -1,92 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/webapps4rim/elirada/dist/columns/people_we_helped.html</loc>
-    <lastmod>2014-12-01T14:58:46.434Z</lastmod>
+    <loc>https://github.com/webapps4rim/elirada/dist/columns/will_power.html</loc>
+    <lastmod>2014-12-06T05:40:55.486Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/about_us.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.486Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/contact_us.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.486Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/cultural-activities.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.486Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/english.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.486Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/francais.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/index.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/latest_news.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/pictures.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/projects_need_support.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/who_are_we.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/columns/charity_work.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/webapps4rim/elirada/dist/columns/people_we_helped.html</loc>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/activities.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://github.com/webapps4rim/elirada/dist/columns/will_power.html</loc>
-    <lastmod>2014-12-01T14:58:46.436Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/news/2014-10-28_cancer_awareness.html</loc>
     <lastmod>2014-10-28T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/webapps4rim/elirada/dist/news/2014-11-25_third_winter_campaign.html</loc>
+    <lastmod>2014-11-25T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://github.com/webapps4rim/elirada/dist/news/2014-12-03_anual_disability_event.html</loc>
+    <lastmod>2014-12-03T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -128,19 +140,19 @@
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/events/10.html</loc>
-    <lastmod>2014-12-01T14:58:46.437Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/events/2.html</loc>
-    <lastmod>2014-12-01T14:58:46.437Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://github.com/webapps4rim/elirada/dist/featured/one.html</loc>
-    <lastmod>2014-12-01T14:58:46.437Z</lastmod>
+    <lastmod>2014-12-06T05:40:55.487Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
