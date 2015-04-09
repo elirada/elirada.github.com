@@ -126,3 +126,8 @@ div.pp_default {
         background-position-x: left;
     }
 }
+
+// Override list item bottom border line
+#content ul li, #content ol li {
+    border-bottom: none;
+}
