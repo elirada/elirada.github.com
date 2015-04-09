@@ -2842,3 +2842,6 @@ div.pp_default .pp_next:hover {
 div.pp_default .pp_previous:hover {
   background-image: url(../images/prettyPhoto/default/sprite_next.png);
   background-position-x: left; }
+
+#content ul li, #content ol li {
+  border-bottom: none; }
