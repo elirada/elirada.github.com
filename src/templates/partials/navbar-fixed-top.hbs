@@ -3,14 +3,14 @@ component: navbar
 ---
 <!-- BEGIN #header -->
   <div id="header">
-    
+
     <div id="header-inner">
-    
+
     <!-- BEGIN #top-bar -->
     <div id="top-bar" class="clearfix">
-      
+
       <div class="top-inner">
-      
+
         <ul class="social-icons fl">
           <li><a href="https://www.facebook.com/elirada.mr" target="_blank"><span id="facebook_icon"></span></a></li>
           <li><a href="#"><span id="twitter_icon"></span></a></li>
@@ -18,36 +18,33 @@ component: navbar
           <li><a href="#"><span id="youtube_icon"></span></a></li>
           <li><a href="#"><span id="rss_icon"></span></a></li>
         </ul>
-      
+
         <ul class="top-menu fr">
+          <li><a href="/donate.html">تبرع_لنا</a><span>/</span></li>
           <li><a href="/volunteer.html">تطوع_معنا</a><span>/</span></li>
           <li><a href="/contact_us.html">إتصل_بنا</a><span>/</span></li>
           {{!-- <li><a href="/contact_us.html">36275919 (00222)</a></li> --}}
           <li><a href="/contact_us.html">19 59 37 26 222 +</a></li>
         </ul>
       </div>
-    
+
     <!-- END #top-bar -->
     </div>
-    
+
     <div class="title-wrapper clearfix">
-    
+
       <div id="title" class="fl">
         <h1>
           <a href="/">{{site.title}}</a>
         </h1>
       </div>
-    
+
       <div class="donate-btn fr">
-        <div class="donate-right">
-          <div class="donate-right-inner"></div>
-        </div>
-        <a href="/donate.html" class="donate-mid"><span>تبرع الآن</span></a>
-        <div class="donate-left"></div>
+        {{> donate}}
       </div>
-    
-    </div>  
-    
+
+    </div>
+
     <div id="main-menu-wrapper" class="clearfix">
       <ul id="main-menu" class="fl">
       {{#each menu}}
@@ -69,11 +66,11 @@ component: navbar
       {{/each}}
       {{/each}}
       </ul>
-      
+
     </div>
-  
+
     <!-- END #header-inner -->
     </div>
-  
+
   <!-- END #header -->
   </div>
