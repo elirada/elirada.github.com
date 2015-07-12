@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     watch: {
       assemble: {
         files: ['<%= config.src %>/{content,data,templates,js,sass}/{,*/,*/*/}*.{md,hbs,yml,js,scss.json}'],
-        tasks: ['browserify', 'assemble']
+        tasks: ['browserify', 'assemble', 'string-replace']
       },
       sass: {
         files: ['<%= config.src %>/sass/**/*.scss'],
@@ -102,25 +102,13 @@ module.exports = function(grunt) {
               name: 'news',
               sortby: 'date',
               sortorder: 'descending'
-            },
-            {
-              name: 'event',
-              sortby: 'date',
-              sortorder: 'descending'
-            },
-            {
-              name: 'featured',
-              sortby: 'date',
-              sortorder: 'descending'
             }
           ]
         },
         files: {
           '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs'],
           '<%= config.dist %>/columns/': ['<%= config.src %>/content/columns/**/*.hbs'],
-          '<%= config.dist %>/news/': ['<%= config.src %>/content/news/**/*.hbs'],
-          '<%= config.dist %>/events/': ['<%= config.src %>/content/events/**/*.hbs'],
-          '<%= config.dist %>/featured/': ['<%= config.src %>/content/featured/**/*.hbs'],
+          '<%= config.dist %>/news/': ['<%= config.src %>/content/news/**/*.hbs']
         }
       }
     },
@@ -188,6 +176,21 @@ module.exports = function(grunt) {
       // }
     },
 
+    'string-replace': {
+      options: {
+        replacements: [{
+            pattern: /dist\//igm,
+            replacement: ''
+          }
+        ]
+      },
+      sitemap: {
+        files: {
+          'dist/sitemap.xml': 'dist/news/sitemap.xml',
+        },
+      }
+    },
+
     buildcontrol: {
       options: {
         dir: 'dist',
@@ -209,6 +212,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-string-replace');
 
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
@@ -237,7 +241,8 @@ module.exports = function(grunt) {
     'browserify',
     'sass',
     'cssflip',
-    'assemble'
+    'assemble',
+    'string-replace'
   ]);
 
   grunt.registerTask('default', [
