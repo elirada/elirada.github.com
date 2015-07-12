@@ -37,5 +37,17 @@ layout: default.hbs
 
         </div>
 
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Article",
+  "name" : "{{title}}",
+  {{#if image}}
+  "image" : "{{assets}}/images/{{image}}",
+  {{/if}}
+  "articleSection" : "أخبار الجمعية",
+  "articleBody" : "{{summary}}"
+}
+</script>
 </div>
 
