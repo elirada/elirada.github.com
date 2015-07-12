@@ -37,6 +37,10 @@ module.exports = function(grunt) {
         files: ['<%= config.src %>/sass/**/*.scss'],
         tasks: ['sass', 'cssflip']
       },
+      images: {
+        files: ['<%= config.src %>/images/**/*.jpg'],
+        tasks: ['copy:images']
+      },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>',
@@ -164,18 +168,24 @@ module.exports = function(grunt) {
       cname: {
         src: 'CNAME',
         dest: 'dist/CNAME'
+      },
+      images: {                         // Another target
+        expand: true,                  // Enable dynamic expansion
+        cwd: 'src/images/',                   // Src matches are relative to this path
+        src: ['**/*.{png,jpg,JPG,gif,ico}'],   // Actual patterns to match
+        dest: 'dist/assets/images/'                  // Destination path prefix
       }
     },
 
     imagemin: {
-      images: {                         // Another target
-        files: [{
-          expand: true,                  // Enable dynamic expansion
-          cwd: 'src/images/',                   // Src matches are relative to this path
-          src: ['**/*.{png,jpg,JPG,gif,ico}'],   // Actual patterns to match
-          dest: 'dist/assets/images/'                  // Destination path prefix
-        }]
-      }
+      // images: {                         // Another target
+      //   files: [{
+      //     expand: true,                  // Enable dynamic expansion
+      //     cwd: 'src/images/',                   // Src matches are relative to this path
+      //     src: ['**/*.{png,jpg,JPG,gif,ico}'],   // Actual patterns to match
+      //     dest: 'dist/assets/images/'                  // Destination path prefix
+      //   }]
+      // }
     },
 
     buildcontrol: {
@@ -223,7 +233,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'clean',
     'copy',
-    'imagemin',
+    // 'imagemin',
     'browserify',
     'sass',
     'cssflip',
