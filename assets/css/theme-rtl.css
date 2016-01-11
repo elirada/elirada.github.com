@@ -1,6 +1,6 @@
-@import url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabickufi.css");
 
-@import url('http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css');
+@import url("http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 
 /*** ESSENTIAL STYLES ***/
 
@@ -12,7 +12,7 @@
 }
 
 #main-menu {
-  line-height: 1;
+  line-height: 1.0;
 }
 
 #main-menu ul {
@@ -1216,7 +1216,7 @@ html[xmlns] .slides {
 .flex-control-thumbs img {
   width: 100%;
   display: block;
-  opacity: 0.7;
+  opacity: .7;
   cursor: pointer;
 }
 
@@ -1812,11 +1812,11 @@ a {
   height: 7px;
   text-indent: -999em;
   overflow: hidden;
-  background: url('../images/arrows.png') no-repeat;
+  background: url("../images/arrows.png") no-repeat;
 }
 
 a > .sf-sub-indicator {
-  top: 0.7em;
+  top: .7em;
   background-position: 0 0px;
 }
 
@@ -2293,7 +2293,7 @@ pre {
 
 .ui-tabs {
   position: relative;
-  padding: 0.2em;
+  padding: .2em;
   zoom: 1;
   margin: 0 0 30px 0;
 }
